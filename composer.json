@@ -1,0 +1,13 @@
+{
+    "name": "nihad1213/php-curl",
+    "description": "PHP library for handle cURL functions easily.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nihad",
+            "email": "nihad.nemetli@gmail.com"
+        }
+    ],
+    "require": {}
+}
