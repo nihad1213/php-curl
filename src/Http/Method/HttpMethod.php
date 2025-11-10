@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Src\Http\Method;
+namespace PhpCurl\Http\Method;
 
 enum HttpMethod: string
 {

@@ -13,8 +13,8 @@
         "phpunit/phpunit": "^11.5"
     },
     "autoload": {
-        "psr-3": {
-            "php-cURL\\": "src/"
+        "psr-4": {
+            "PhpCurl\\": "src/"
         }
     }
 }

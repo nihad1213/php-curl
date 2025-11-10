@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Src\Exception;
+namespace PhpCurl\Exception;
 
 use Exception;
 use Throwable;
