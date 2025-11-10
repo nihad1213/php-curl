@@ -40,7 +40,12 @@ class Client
             throw new CurlException("cURL error ({$errno}): {$error}", $errno);
         }
 
-        return new Response($status, $body);
+        return new Response(
+            statusCode: $status,
+            status: curl_getinfo($curl, CURLINFO_HTTP_CODE) . ' OK',
+            headers: [],
+            body: $body
+        );
     }
 
     public function get(string $url, array $headers = []): Response

@@ -1,0 +1,1 @@
+{"version":2,"defects":{"ClientTest::testGetRequest":8,"ClientTest::testPostRequest":8},"times":{"ClientTest::testGetRequest":0.175,"ClientTest::testPostRequest":0.319}}
